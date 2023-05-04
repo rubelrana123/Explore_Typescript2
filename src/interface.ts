@@ -22,3 +22,16 @@ const newIUser : IextendUser =  {
  role : "top",
  age : 20
 };
+
+// type addNumbersType = (num1 : number, num2 : number) => number;
+  interface IAddNumbers {
+    (num1 : number, num2 : number) : number;
+  }
+
+const addNumbers : IAddNumbers = (num1, num2) => num1 + num2;
+
+  type  ROllType = number[];
+  interface IRollNumber  {
+    [index : number] : number;
+  }
+const rollNumbers : IRollNumber = [2,6,7,8]
