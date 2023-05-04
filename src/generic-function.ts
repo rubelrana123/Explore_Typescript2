@@ -1,4 +1,4 @@
-// const createArray = (param : string): string[] =>  {
+/* // const createArray = (param : string): string[] =>  {
 //     return [param];
 // }
 type PersonalInfoType =  {
@@ -27,4 +27,4 @@ const AddMeInMyFriendMind = <T> (myInfo : T) => {
     return newData;
 }
 const result5 = AddMeInMyFriendMind(myInfo);
-console.log(result5)
+console.log(result5) */
