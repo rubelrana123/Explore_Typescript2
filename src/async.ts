@@ -1,4 +1,4 @@
-//json data ffetch
+/* //json data ffetch
 
 interface ITodo {
     userId: number;
@@ -73,4 +73,4 @@ const makePromise3 = () : Promise <MeInfoType> => {
       const data = await makePromise3();
       return data;
       // console.log(data)
-  } */
+  } */  
