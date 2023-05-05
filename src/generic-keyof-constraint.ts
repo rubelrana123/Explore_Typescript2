@@ -5,6 +5,7 @@ type PersonType = {
 };
 
 type newType = "name" | "age" | " address";
+//or
 type newKeyUsingKeyOf = keyof PersonType ;
 
 const a : newType = "age";
